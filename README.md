@@ -11,12 +11,12 @@
 ##关于manage.run()的运行参数引用
 >运行hello.py，会显示一个用法消息：
 ```$python hello.py
-usage: hello.py [-h] {shell,runserver}...
-positional arguments:
-{shell, runserver}```
+usage: hello.py [-h] {shell,runserver}...```
 
-shell >在Flask应用上下文中运行Python shell
-runserver >运行Flask开发服务器：app.run()
+>positional arguments:
+>{shell, runserver}
+>shell >在Flask应用上下文中运行Python shell
+>runserver >运行Flask开发服务器：app.run()```
 
 ```optional arguments:
 -h, --help >显示帮助信息并退出```
