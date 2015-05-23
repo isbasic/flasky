@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, url_for
 from flask.ext.script import Manager
 from flask.ext.bootstrap import Bootstrap
 
