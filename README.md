@@ -24,15 +24,16 @@ usage: hello.py [-h] {shell,runserver}...```
 >shell命令用于在程序的上下文中启动Python shell会话。可以使用这个会话运行维护任务或测试、调试异常。
 
 >runserver命令用来启动web服务器，运行 python pyfile.py runserver将以调试模式启动web服务器，以下还有其他选项可用：
-'''(venv) $ python pyfile.py runserver --help
+
+```(venv) $ python pyfile.py runserver --help
 usage: pyfile.py runserver [-h] [-t HOST] [-p PORT] [--threaded]
                              [--processes PROCESSES] [--passthrough-errors] [-d]
-                             [-r]'''
+                             [-r]```
 
 >examples
-'''python pyfile.py runserver --host 0.0.0.0 --port 9000
+```python pyfile.py runserver --host 0.0.0.0 --port 9000
 * Running on http://0.0.0.0:9000/
-* Restarting with reload'''
+* Restarting with reload```
 
 ========
 
